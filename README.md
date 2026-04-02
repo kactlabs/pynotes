@@ -42,6 +42,11 @@ pelican --listen
 ```
 python make.py
 
+# Only for Linux/Mac
+pelican content
+
+# Only for Windows
+set PELICAN_ENV=prod
 pelican content
 
 git add .
@@ -63,6 +68,11 @@ select "main" branch and "docs" folder
 ```
 python make.py
 
+# Only for Linux/Mac
+pelican content
+
+# Only for Windows
+set PELICAN_ENV=prod
 pelican content
 
 git add .
